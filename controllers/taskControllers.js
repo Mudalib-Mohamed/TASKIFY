@@ -47,3 +47,19 @@ exports.createTask = (req, res) => {
     }
   });
 };
+
+exports.updateTask = (req, res) => {
+  res.end(
+    JSON.stringify({
+      message: "Not Yet Implemented",
+    })
+  );
+};
+
+exports.deleteTask = (req, res) => {
+  res.end(
+    JSON.stringify({
+      message: "Not Yet Implemented",
+    })
+  );
+};
